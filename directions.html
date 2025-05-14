@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="big-wrapper">
+        <header class="header" id="header">
+            <div class="big-container">
+                <div class="header__inner">
+                    <a class="header__logo logo" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <div class="header__content header-content">
+                        <div class="header-content__inner">
+                            <div class="header-content__top header-top">
+                                <div class="header-top__addresses header-addresses">
+                                    <div class="header-addresses__head addresses-head">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.06 51.06">
+                                            <g>
+                                                <circle fill="#ff0009" cx="25.53" cy="25.53" r="25.53" />
+                                                <path fill="#1f1f1f"
+                                                    d="M41.08 35.96c.03.4-.15.67-.54.84-.4.15-1.11.24-2.13.24-.62 0-1.11-.01-1.49-.02-.37-.02-.66-.06-.86-.12-.19-.06-.33-.15-.41-.27-.07-.12-.11-.28-.13-.46l-1.26-11.41c-.04-.41-.09-.87-.13-1.38s-.07-1.02-.11-1.54c-.04-.53-.07-1.05-.11-1.56-.03-.52-.07-.98-.12-1.4l.02-.59c-.11.43-.24.89-.37 1.41-.14.5-.28 1.02-.44 1.54s-.31 1.05-.45 1.56c-.14.52-.28.98-.41 1.4l-3.72 11.76a1.3 1.3 0 0 1-.82.84c-.24.09-.53.15-.89.19-.35.04-.8.06-1.34.06-.49 0-.91-.02-1.25-.06s-.63-.11-.85-.19a1.06 1.06 0 0 1-.54-.34 1.06 1.06 0 0 1-.26-.53l-3.65-11.74c-.12-.41-.26-.88-.41-1.38s-.3-1.02-.45-1.55c-.15-.52-.29-1.04-.42-1.56-.14-.51-.25-.98-.35-1.41l.02.59c-.03.41-.07.88-.1 1.4s-.06 1.03-.11 1.56c-.05.52-.1 1.04-.15 1.54-.05.51-.08.97-.11 1.38l-1.21 11.27a1 1 0 0 1-.62.84c-.23.07-.53.13-.91.15-.38.02-.89.03-1.5.03-.55 0-1-.02-1.33-.05s-.59-.09-.78-.18a.62.62 0 0 1-.36-.33c-.05-.14-.07-.31-.06-.51l2.1-19.89a2.1 2.1 0 0 1 2.34-2.05h3.02c.64 0 1.18.05 1.63.15.45.09.83.26 1.16.5.34.24.62.56.84.98.22.41.42.93.59 1.55l2.39 7.29c.14.48.28.97.42 1.49.15.52.29 1.03.43 1.55.15.51.28 1.02.39 1.49.12.49.23.94.33 1.37l.02 0c.1-.43.2-.89.33-1.41.13-.51.26-1.02.39-1.55.14-.52.28-1.04.43-1.54.15-.51.29-.98.44-1.43l2.37-7.26c.15-.57.33-1.06.52-1.46.19-.41.44-.73.74-.98.3-.24.67-.42 1.12-.54.44-.12.99-.18 1.64-.18h2.99a2.1 2.1 0 0 1 2.36 2.05l2.12 19.89z" />
+                                            </g>
+                                        </svg>
+                                        <div class="addresses-head__inner">
+                                            <span>
+                                                Пролетарская
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                viewBox="0 0 10 10">
+                                                <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                            </svg>
+                                        </div>
+                                        <span>
+                                            +5 адресов
+                                        </span>
+                                    </div>
+                                    <div class="header-addresses__dropdown addresses-dropdown">
+                                        <div class="addresses-dropdown__head">
+                                            <span>
+                                                Все адреса
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                viewBox="0 0 10 10">
+                                                <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                            </svg>
+                                        </div>
+                                        <ul class="addresses-dropdown__list addresses-list">
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Основной зал <br>
+                                                    на ул.Серафимовича 11
+                                                </a>
+                                            </li>
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Зал на ул.Антоновская 20
+                                                </a>
+                                            </li>
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Зал на ул.Авангардная 42
+                                                </a>
+                                            </li>
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Зал на ул.Гамарника 19 <br>
+                                                    (Зелёный луг)
+                                                </a>
+                                            </li>
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Зал на ул.Осипенко 17/2
+                                                </a>
+                                            </li>
+                                            <li class="addresses-list__item">
+                                                <a class="addresses-list__link" href="#">
+                                                    Зал на ул.Бачило 13 <br>
+                                                    (Шабаны)
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="header-top__phone header-phone">
+                                    <div class="header-phone__head phone-head">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+                                            <path fill="#ff0009"
+                                                d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+                                              c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+                                              c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+                                              C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
+                                        </svg>
+                                        <div class="phone-head__inner">
+                                            <span>
+                                                +375 29 85 85 299
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                viewBox="0 0 10 10">
+                                                <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="header-phone__dropdown phone-dropdown">
+                                        <ul class="phone-dropdown__list phone-list">
+                                            <li class="phone-list__item">
+                                                <a class="phone-list__link" href="tel:+375298585299">
+                                                    <div class="phone-list__icon">
+                                                        <img src="images/icon-a1-logo.svg" alt="icon">
+                                                    </div>
+                                                    <span>
+                                                        +375 29 85 85 299
+                                                    </span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                        viewBox="0 0 10 10">
+                                                        <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="phone-list__item">
+                                                <a class="phone-list__link" href="tel:+375298585299">
+                                                    <div class="phone-list__icon">
+                                                        <img src="images/mts-logo.png" alt="icon">
+                                                    </div>
+                                                    <span>
+                                                        +375 29 85 85 299
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="header-top__link btn btn--transperent open--contacts" href="#">
+                                    Записаться
+                                    <span>
+                                        на тренировку
+                                    </span>
+                                </a>
+                                <div class="header-top__socials socials">
+                                    <ul class="socials__list socials-list">
+                                        <li class="socials-list__item">
+                                            <a class="socials-list__link" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="42.3334mm"
+                                                    height="42.3334mm" viewBox="0 0 4233.34 4233.34">
+                                                    <path fill="black"
+                                                        d="M2116.67 0c1168.99,0 2116.67,947.68 2116.67,2116.67 0,1168.99 -947.68,2116.67 -2116.67,2116.67 -1168.99,0 -2116.67,-947.68 -2116.67,-2116.67 0,-1168.99 947.68,-2116.67 2116.67,-2116.67zm0.45 1464.44c-360.15,0 -651.74,291.88 -651.74,651.72 0,360.16 291.91,651.73 651.74,651.73 360.14,0 651.72,-291.89 651.72,-651.73 0,-360.15 -291.88,-651.72 -651.72,-651.72zm0 1074.74c-233.79,0 -423.02,-189.34 -423.02,-423.02 0,-233.68 189.34,-423.01 423.02,-423.01 233.68,0 423.01,189.33 423.01,423.01 0.11,233.68 -189.23,423.02 -423.01,423.02zm523.25 -1684.56c-233.69,-10.89 -812.5,-10.38 -1046.39,0 -205.52,9.63 -386.82,59.26 -532.97,205.41 -244.27,244.28 -213.05,573.42 -213.05,1056.13 0,494.03 -27.51,815.55 213.05,1056.12 245.21,245.12 579.11,213.04 1056.11,213.04 489.37,0 658.28,0.32 831.31,-66.68 235.27,-91.33 412.87,-301.62 430.22,-679.34 11,-233.78 10.38,-812.49 0,-1046.37 -20.95,-445.88 -260.24,-716.29 -738.28,-738.31l0 0zm369.88 2156.05c-160.14,160.13 -382.27,145.84 -896.2,145.84 -529.17,0 -741.36,7.83 -896.21,-147.42 -178.33,-177.5 -146.04,-462.51 -146.04,-894.62 0,-584.73 -60.01,-1005.85 526.83,-1035.9 134.84,-4.77 174.52,-6.36 513.94,-6.36l4.76 3.17c563.98,0 1006.47,-59.04 1033.03,527.7 6.05,133.88 7.42,174.1 7.42,512.97 -0.12,523.04 9.82,736.51 -147.54,894.62l0.01 0zm-63.3 -1571.95c0,-84.11 -68.17,-152.31 -152.28,-152.31 -84.12,0 -152.31,68.2 -152.31,152.31 0,84.1 68.19,152.29 152.31,152.29 84.11,0 152.28,-68.19 152.28,-152.29z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a class="socials-list__link" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+                                                    width="211.667mm" height="211.667mm" viewBox="0 0 10918.25 10918.25"
+                                                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+                                                    <g>
+                                                        <path class="fil0"
+                                                            d="M5459.12 0c3014.99,0 5459.12,2444.13 5459.12,5459.12 0,3014.99 -2444.13,5459.12 -5459.12,5459.12 -3014.99,0 -5459.12,-2444.13 -5459.12,-5459.12 0,-3014.99 2444.13,-5459.12 5459.12,-5459.12zm3046.63 4837.95c-622.78,0 -1200.13,-199.15 -1671.22,-537.47l0 2441.32c0,1219.35 -991.96,2211.02 -2211.01,2211.02 -471.09,0 -908.11,-148.49 -1267.1,-400.63 -570.08,-400.34 -943.92,-1062.42 -943.92,-1810.39 0,-1219.35 991.96,-2211.31 2211.31,-2211.31 101.32,0 200.31,8.44 297.85,21.55l0 284.46 0 941.88c-94.33,-29.41 -193.91,-46.58 -297.85,-46.58 -556.69,0 -1009.72,453.04 -1009.72,1010.01 0,387.82 220.11,724.68 541.55,893.84 140.05,73.66 299.31,115.88 468.47,115.88 543.87,0 987.59,-432.65 1007.97,-971.87l0.87 -4814.21 1201.3 0c0,104.23 10.19,205.84 28.24,304.84 84.72,457.69 356.37,850.46 732.83,1095.9 262.04,170.91 574.74,270.77 910.14,270.77l0 1201.01 0.29 0z" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a class="socials-list__link" href="#">
+                                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM36.265 18.0732C35.9706 16.9422 35.1031 16.0516 34.0016 15.7493C32.0054 15.2 24 15.2 24 15.2C24 15.2 15.9946 15.2 13.9983 15.7493C12.8967 16.0516 12.0292 16.9422 11.7348 18.0732C11.2 20.123 11.2 24.4 11.2 24.4C11.2 24.4 11.2 28.6768 11.7348 30.7268C12.0292 31.8578 12.8967 32.7484 13.9983 33.0508C15.9946 33.6 24 33.6 24 33.6C24 33.6 32.0054 33.6 34.0016 33.0508C35.1031 32.7484 35.9706 31.8578 36.265 30.7268C36.8 28.6768 36.8 24.4 36.8 24.4C36.8 24.4 36.8 20.123 36.265 18.0732Z"
+                                                        fill="black" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M21.6 28.8V20.8L28 24.8001L21.6 28.8Z" fill="black" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header-content__bottom header-bottom">
+                                <nav class="header-bottom__menu menu">
+                                    <ul class="menu__list menu-list">
+                                        <li class="menu-list__item">
+                                            <div class="menu-list__dropdown dropdown">
+                                                <div class="dropdown__head">
+                                                    <span>
+                                                        Направления
+                                                    </span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                        viewBox="0 0 10 10">
+                                                        <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                                    </svg>
+                                                </div>
+                                                <ul class="dropdown__list dropdown-list">
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            ОФП «Крепышики»
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            Карате-WKF
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            OCR
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            Стрейчинг
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a class="menu-list__link" href="#">
+                                                Залы
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a class="menu-list__link" href="#">
+                                                Цены и скидки
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a class="menu-list__link" href="#">
+                                                Наша Команда
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item">
+                                            <a class="menu-list__link" href="#">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                        <li class="menu-list__item menu-list__item--more">
+                                            <div class="menu-list__dropdown dropdown">
+                                                <div class="dropdown__head">
+                                                    <span>
+                                                        Еще
+                                                    </span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                        viewBox="0 0 10 10">
+                                                        <polygon points="0,0 10,0 5,10" fill="#ff0009" />
+                                                    </svg>
+                                                </div>
+                                                <ul class="dropdown__list dropdown-list">
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            ОФП «Крепышики»
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            Карате-WKF
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            OCR
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-list__item">
+                                                        <a class="dropdown-list__link" href="#">
+                                                            Стрейчинг
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__burger burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_4027_13786)">
+                                <path
+                                    d="M11.8323 10.0156L19.6199 2.22773C20.1267 1.72116 20.1267 0.902117 19.6199 0.39555C19.1134 -0.111017 18.2943 -0.111017 17.7878 0.39555L9.9999 8.18339L2.21229 0.39555C1.70548 -0.111017 0.886671 -0.111017 0.380103 0.39555C-0.126701 0.902117 -0.126701 1.72116 0.380103 2.22773L8.16772 10.0156L0.380103 17.8034C-0.126701 18.31 -0.126701 19.129 0.380103 19.6356C0.632557 19.8883 0.964495 20.0152 1.2962 20.0152C1.6279 20.0152 1.9596 19.8883 2.21229 19.6356L9.9999 11.8478L17.7878 19.6356C18.0404 19.8883 18.3721 20.0152 18.7038 20.0152C19.0355 20.0152 19.3672 19.8883 19.6199 19.6356C20.1267 19.129 20.1267 18.31 19.6199 17.8034L11.8323 10.0156Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_4027_13786">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <main class="main">
+                <section class="main__head head">
+                    <div class="head__bg head-bg">
+                        <img class="head-bg__img" src="images/head-bg.jpg" alt="bg">
+                    </div>
+                    <div class="head__wrapper">
+                        <div class="container">
+                            <div class="head__inner">
+                                <div class="head__breadcrumbs breadcrumbs">
+                                    <ul class="breadcrumbs__list breadcrumbs-list">
+                                        <li class="breadcrumbs-list__item">
+                                            <a class="breadcrumbs-list__link" href="#">
+                                                Главная
+                                            </a>
+                                            <span>
+                                                >
+                                            </span>
+                                        </li>
+                                        <li class="breadcrumbs-list__item">
+                                            <a class="breadcrumbs-list__link" href="#">
+                                                Направления
+                                            </a>
+                                            <span>
+                                                >
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="head__titling head-titling">
+                                    <h2 class="head-titling__title">
+                                        Карате-WKF
+                                    </h2>
+                                    <p class="head-titling__text">
+                                        Занятия для детей от 6 лет и взрослых
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <article class="main__article article">
+                    <div class="small-container">
+                        <div class="article__inner">
+                            <p>
+                                Каратэ для детей, подростков и молодежи является направлением, которым занимается
+                                подавляющее большинство ребят и девчат в спортивном клубе «Тур».
+                            </p>
+                            <h2>
+                                Почему родители выбирают для своих детей занятия по каратэ?
+                            </h2>
+                            <div>
+                                <p>Причин много, вот основные:</p>
+                                <ul>
+                                    <li>
+                                        <span>
+                                            каратэ
+                                        </span>
+                                        – высоко координационный вид спорт, занятия которым помогают детям
+                                        развивать скорость физическую и ментальную (скорость реагирования и скорость
+                                        принятия решения), координацию – умение выполнять одновременно простые и сложные
+                                        двигательные действия, ловкость, физическую силу, гибкость.
+                                    </li>
+                                    <li>
+                                        каратэ – это единоборство, которое развивает дисциплину, уважение к себе, к
+                                        партнеру, к сопернику, к тренеру; каратэ помогает преодолевать свои страхи,
+                                        неуверенность, скованность.
+                                    </li>
+                                    <li>
+                                        каратэ – это один из видов спорта, который помогает детям, да и взрослым,
+                                        учиться контролировать свою агрессию, направлять ее не в разрушение, а в энергию
+                                        и самомотивацию для достижения намеченной цели.
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Занятия по
+                                <a href="#">
+                                    каратэ для детей
+                                </a>
+                                в спортивном клубе «Тур» проходят по выработанной поэтапной
+                                системе: группы начальной подготовки, учебно-тренировочные группы 3-4-5 годов обучения и
+                                группы спортивного совершенствования.
+                            </p>
+                            <h3>
+                                Почему родители выбирают для своих детей занятия по каратэ?
+                            </h3>
+                            <p>
+                                Такое деление на этапы позволяет аккуратно развивать ребенка, превращая его из
+                                неопытного малыша в подготовленного уверенного спортсмена. Это как стройка дома, нет
+                                смысла красить фасад, если фундамент прогнивший.
+                            </p>
+                            <div>
+                                <p>Причин много, вот основные:</p>
+                                <ol>
+                                    <li>
+                                        Каратэ – высоко координационный вид спорт, занятия которым помогают детям
+                                        развивать скорость физическую и ментальную (скорость реагирования и скорость
+                                        принятия решения), координацию – умение выполнять одновременно простые и сложные
+                                        двигательные действия, ловкость, физическую силу, гибкость.
+                                    </li>
+                                    <li>
+                                        Каратэ – это единоборство, которое развивает дисциплину, уважение к себе, к
+                                        партнеру, к сопернику, к тренеру; каратэ помогает преодолевать свои страхи,
+                                        неуверенность, скованность.
+                                    </li>
+                                    <li>
+                                        Каратэ – это один из видов спорта, который помогает детям, да и взрослым,
+                                        учиться контролировать свою агрессию, направлять ее не в разрушение, а в энергию
+                                        и самомотивацию для достижения намеченной цели.
+                                    </li>
+                                </ol>
+                            </div>
+                            <img src="images/article-img.JPG" alt="img">
+                            <blockquote>
+                                <p>
+                                    Занятия по каратэ для детей в спортивном клубе «Тур» проходят
+                                    <span>
+                                        по выработанной поэтапной системе:
+                                    </span>
+                                    группы начальной подготовки, учебно-тренировочные группы 3-4-5 годов обучения и
+                                    группы спортивного совершенствования.
+                                </p>
+                                <p>
+                                    Группы начальной подготовки, учебно-тренировочные группы 3-4-5 годов обучения и
+                                    группы спортивного совершенствования.
+                                </p>
+                            </blockquote>
+                            <p>
+                                Такое деление на этапы позволяет аккуратно развивать ребенка, превращая его из
+                                неопытного малыша в подготовленного уверенного спортсмена. Это как стройка дома, нет
+                                смысла красить фасад, если фундамент прогнивший.
+                            </p>
+                        </div>
+                        <a class="article__link btn btn--transperent" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                <path fill="#fff"
+                                    d="M10.285 26.483c.429.444 1.143.444 1.587 0 .429-.429.429-1.143 0-1.571L3.825 16.865h26.554c.619 0 1.111-.492 1.111-1.111 0-.619-.492-1.111-1.111-1.111H3.825l8.047-8.047c.429-.444.429-1.159 0-1.587-.444-.444-1.159-.444-1.587 0L.333 14.97c-.444.429-.444 1.143 0 1.571l9.952 9.942z" />
+                            </svg>
+                            <span>
+                                назад
+                            </span>
+                        </a>
+                    </div>
+                </article>
+                <div class="main__photos photos">
+                    <div class="container">
+                        <div class="photos__inner">
+                            <div class="photos__arrow arrow arrow--left photos-arrow--left ">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4180_17401)">
+                                        <path
+                                            d="M34.8541 15.3994L21.2177 29.0361C20.962 29.2918 20.8184 29.6387 20.8184 30.0003C20.8184 30.362 20.9621 30.7089 21.2178 30.9646L34.8542 44.6006C35.3867 45.1331 36.2501 45.1331 36.7826 44.6006C37.3151 44.0681 37.3152 43.2047 36.7826 42.6721L24.1105 30.0003L36.7826 17.3279C37.0489 17.0616 37.182 16.7126 37.182 16.3636C37.182 16.0146 37.0489 15.6656 36.7825 15.3993C36.25 14.8669 35.3866 14.8669 34.8541 15.3994Z"
+                                            fill="white" />
+                                    </g>
+                                    <path
+                                        d="M30 0.5C46.2924 0.5 59.5 13.7076 59.5 30C59.5 46.2924 46.2924 59.5 30 59.5C13.7076 59.5 0.5 46.2924 0.5 30C0.5 13.7076 13.7076 0.5 30 0.5Z"
+                                        stroke="white" />
+                                    <defs>
+                                        <clipPath id="clip0_4180_17401">
+                                            <rect width="30" height="30" fill="white"
+                                                transform="matrix(0 -1 1 0 14 45)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="photos__swiper photos-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-1.jpg">
+                                            <img src="images/photos-img-1.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-2.jpg">
+                                            <img src="images/photos-img-2.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-3.jpg">
+                                            <img src="images/photos-img-3.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-4.jpg">
+                                            <img src="images/photos-img-4.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-1.jpg">
+                                            <img src="images/photos-img-1.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-2.jpg">
+                                            <img src="images/photos-img-2.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-3.jpg">
+                                            <img src="images/photos-img-3.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                    <div class="photos-swiper__slide photos-slide swiper-slide">
+                                        <a class="photos-slide__img" data-fancybox="gallery"
+                                            href="images/photos-img-4.jpg">
+                                            <img src="images/photos-img-4.jpg" alt="img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="photos-swiper__pagination pagination"></div>
+                            </div>
+                            <div class="photos__arrow arrow arrow--right photos-arrow--right">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4180_17402)">
+                                        <path
+                                            d="M25.1459 44.6006L38.7823 30.9639C39.038 30.7082 39.1816 30.3613 39.1816 29.9997C39.1816 29.638 39.0379 29.2911 38.7822 29.0354L25.1458 15.3994C24.6133 14.8669 23.7499 14.8669 23.2174 15.3994C22.6849 15.9319 22.6848 16.7953 23.2174 17.3279L35.8895 29.9997L23.2174 42.6721C22.9511 42.9384 22.818 43.2874 22.818 43.6364C22.818 43.9854 22.9511 44.3344 23.2175 44.6007C23.75 45.1331 24.6134 45.1331 25.1459 44.6006Z"
+                                            fill="white" />
+                                    </g>
+                                    <path
+                                        d="M30 59.5C13.7076 59.5 0.5 46.2924 0.5 30C0.5 13.7076 13.7076 0.5 30 0.5C46.2924 0.5 59.5 13.7076 59.5 30C59.5 46.2924 46.2924 59.5 30 59.5Z"
+                                        stroke="white" />
+                                    <defs>
+                                        <clipPath id="clip0_4180_17402">
+                                            <rect width="30" height="30" fill="white"
+                                                transform="matrix(0 1 -1 0 46 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="main__coaches coaches">
+                    <div class="container">
+                        <div class="coaches__titling coaches-titling">
+                            <h2 class="coaches-titling__title">
+                                кто будет тренировать
+                            </h2>
+                        </div>
+                        <div class="coaches__inner">
+                            <a class="coaches__item coaches-item" href="#">
+                                <div class="coaches-item__img">
+                                    <img src="images/team-img-1.jpg" alt="img">
+                                </div>
+                                <div class="coaches-item__name">
+                                    Стальмахович николай
+                                </div>
+                                <div class="coaches-item__text">
+                                    старший тренер
+                                </div>
+                            </a>
+                            <a class="coaches__item coaches-item" href="#">
+                                <div class="coaches-item__img">
+                                    <img src="images/team-img-2.jpg" alt="img">
+                                </div>
+                                <div class="coaches-item__name">
+                                    владимир короткевич
+                                </div>
+                                <div class="coaches-item__text">
+                                    тренер по карате
+                                </div>
+                            </a>
+                            <a class="coaches__item coaches-item" href="#">
+                                <div class="coaches-item__img">
+                                    <img src="images/team-img-3.jpg" alt="img">
+                                </div>
+                                <div class="coaches-item__name">
+                                    владимир короткевич
+                                </div>
+                                <div class="coaches-item__text">
+                                    тренер по карате
+                                </div>
+                            </a>
+                            <a class="coaches__item coaches-item" href="#">
+                                <div class="coaches-item__img">
+                                    <img src="images/team-img-2.jpg" alt="img">
+                                </div>
+                                <div class="coaches-item__name">
+                                    владимир короткевич
+                                </div>
+                                <div class="coaches-item__text">
+                                    тренер по карате
+                                </div>
+                            </a>
+                            <a class="coaches__item coaches-item" href="#">
+                                <div class="coaches-item__img">
+                                    <img src="images/team-img-3.jpg" alt="img">
+                                </div>
+                                <div class="coaches-item__name">
+                                    владимир короткевич
+                                </div>
+                                <div class="coaches-item__text">
+                                    тренер по карате
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__map map map--secondary">
+                    <div class="container">
+                        <div class="map__heading map-heading">
+                            <h2 class="map-heading__title">
+                                Выбирайте удобный зал
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="map__inner">
+                        <div class="map__img">
+                            <img src="images/map.jpg" alt="map">
+                        </div>
+                        <div class="container">
+                            <div class="map__wrapper">
+                                <div class="map__places map-places">
+                                    <div class="map-places__place place">
+                                        <div class="place__wrp">
+                                            <div class="place__close">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    focusable="false" viewBox="0 0 12 12">
+                                                    <path fill="#fff" fill-opacity="0.9"
+                                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                                </svg>
+                                            </div>
+                                            <div class="place__img">
+                                                <img src="images/map-img.jpg" alt="img">
+                                            </div>
+                                            <div class="place__inner">
+                                                <div class="place__wrapper">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                                        data-name="Layer 1" viewBox="0 0 24 24" width="512"
+                                                        height="512">
+                                                        <path
+                                                            d="M12,0A10.011,10.011,0,0,0,2,10c0,5.282,8.4,12.533,9.354,13.343l.646.546.646-.546C13.6,22.533,22,15.282,22,10A10.011,10.011,0,0,0,12,0Zm0,15a5,5,0,1,1,5-5A5.006,5.006,0,0,1,12,15Z"
+                                                            fill="#fff" />
+                                                        <circle cx="12" cy="10" r="3" fill="#fff" />
+                                                    </svg>
+                                                    <div class="place__wrap">
+                                                        <h5 class="place__title">
+                                                            ул. Серафимовича, 11 (метро Пролетарская)
+                                                        </h5>
+                                                        <ul class="place__list place-list">
+                                                            <li class="place-list__item">
+                                                                Каратэ-WKF (с 6 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                OCR (от 7 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                ОФП (4-5 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                Стрейчинг (с 14 лет)
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a class="place__link btn btn--white" href="#">
+                                                    подробнее
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="place__dot">
+                                            <span>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="map-places__place place">
+                                        <div class="place__wrp">
+                                            <div class="place__close">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    focusable="false" viewBox="0 0 12 12">
+                                                    <path fill="#fff" fill-opacity="0.9"
+                                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                                </svg>
+                                            </div>
+                                            <div class="place__img">
+                                                <img src="images/map-img.jpg" alt="img">
+                                            </div>
+                                            <div class="place__inner">
+                                                <div class="place__wrapper">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                                        data-name="Layer 1" viewBox="0 0 24 24" width="512"
+                                                        height="512">
+                                                        <path
+                                                            d="M12,0A10.011,10.011,0,0,0,2,10c0,5.282,8.4,12.533,9.354,13.343l.646.546.646-.546C13.6,22.533,22,15.282,22,10A10.011,10.011,0,0,0,12,0Zm0,15a5,5,0,1,1,5-5A5.006,5.006,0,0,1,12,15Z"
+                                                            fill="#fff" />
+                                                        <circle cx="12" cy="10" r="3" fill="#fff" />
+                                                    </svg>
+                                                    <div class="place__wrap">
+                                                        <h5 class="place__title">
+                                                            ул. Серафимовича, 11 (метро Пролетарская)
+                                                        </h5>
+                                                        <ul class="place__list place-list">
+                                                            <li class="place-list__item">
+                                                                Каратэ-WKF (с 6 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                OCR (от 7 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                ОФП (4-5 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                Стрейчинг (с 14 лет)
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a class="place__link btn btn--white" href="#">
+                                                    подробнее
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="place__dot">
+                                            <span>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="map-places__place place place--active">
+                                        <div class="place__wrp">
+                                            <div class="place__close">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    focusable="false" viewBox="0 0 12 12">
+                                                    <path fill="#fff" fill-opacity="0.9"
+                                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                                </svg>
+                                            </div>
+                                            <div class="place__img">
+                                                <img src="images/map-img.jpg" alt="img">
+                                            </div>
+                                            <div class="place__inner">
+                                                <div class="place__wrapper">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                                        data-name="Layer 1" viewBox="0 0 24 24" width="512"
+                                                        height="512">
+                                                        <path
+                                                            d="M12,0A10.011,10.011,0,0,0,2,10c0,5.282,8.4,12.533,9.354,13.343l.646.546.646-.546C13.6,22.533,22,15.282,22,10A10.011,10.011,0,0,0,12,0Zm0,15a5,5,0,1,1,5-5A5.006,5.006,0,0,1,12,15Z"
+                                                            fill="#fff" />
+                                                        <circle cx="12" cy="10" r="3" fill="#fff" />
+                                                    </svg>
+                                                    <div class="place__wrap">
+                                                        <h5 class="place__title">
+                                                            ул. Серафимовича, 11 (метро Пролетарская)
+                                                        </h5>
+                                                        <ul class="place__list place-list">
+                                                            <li class="place-list__item">
+                                                                Каратэ-WKF (с 6 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                OCR (от 7 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                ОФП (4-5 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                Стрейчинг (с 14 лет)
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a class="place__link btn btn--white" href="#">
+                                                    подробнее
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="place__dot">
+                                            <span>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="map-places__place place">
+                                        <div class="place__wrp">
+                                            <div class="place__close">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    focusable="false" viewBox="0 0 12 12">
+                                                    <path fill="#fff" fill-opacity="0.9"
+                                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                                </svg>
+                                            </div>
+                                            <div class="place__img">
+                                                <img src="images/map-img.jpg" alt="img">
+                                            </div>
+                                            <div class="place__inner">
+                                                <div class="place__wrapper">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                                        data-name="Layer 1" viewBox="0 0 24 24" width="512"
+                                                        height="512">
+                                                        <path
+                                                            d="M12,0A10.011,10.011,0,0,0,2,10c0,5.282,8.4,12.533,9.354,13.343l.646.546.646-.546C13.6,22.533,22,15.282,22,10A10.011,10.011,0,0,0,12,0Zm0,15a5,5,0,1,1,5-5A5.006,5.006,0,0,1,12,15Z"
+                                                            fill="#fff" />
+                                                        <circle cx="12" cy="10" r="3" fill="#fff" />
+                                                    </svg>
+                                                    <div class="place__wrap">
+                                                        <h5 class="place__title">
+                                                            ул. Серафимовича, 11 (метро Пролетарская)
+                                                        </h5>
+                                                        <ul class="place__list place-list">
+                                                            <li class="place-list__item">
+                                                                Каратэ-WKF (с 6 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                OCR (от 7 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                ОФП (4-5 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                Стрейчинг (с 14 лет)
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a class="place__link btn btn--white" href="#">
+                                                    подробнее
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="place__dot">
+                                            <span>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="map-places__place place">
+                                        <div class="place__wrp">
+                                            <div class="place__close">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    focusable="false" viewBox="0 0 12 12">
+                                                    <path fill="#fff" fill-opacity="0.9"
+                                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                                </svg>
+                                            </div>
+                                            <div class="place__img">
+                                                <img src="images/map-img.jpg" alt="img">
+                                            </div>
+                                            <div class="place__inner">
+                                                <div class="place__wrapper">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1"
+                                                        data-name="Layer 1" viewBox="0 0 24 24" width="512"
+                                                        height="512">
+                                                        <path
+                                                            d="M12,0A10.011,10.011,0,0,0,2,10c0,5.282,8.4,12.533,9.354,13.343l.646.546.646-.546C13.6,22.533,22,15.282,22,10A10.011,10.011,0,0,0,12,0Zm0,15a5,5,0,1,1,5-5A5.006,5.006,0,0,1,12,15Z"
+                                                            fill="#fff" />
+                                                        <circle cx="12" cy="10" r="3" fill="#fff" />
+                                                    </svg>
+                                                    <div class="place__wrap">
+                                                        <h5 class="place__title">
+                                                            ул. Серафимовича, 11 (метро Пролетарская)
+                                                        </h5>
+                                                        <ul class="place__list place-list">
+                                                            <li class="place-list__item">
+                                                                Каратэ-WKF (с 6 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                OCR (от 7 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                ОФП (4-5 лет)
+                                                            </li>
+                                                            <li class="place-list__item">
+                                                                Стрейчинг (с 14 лет)
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a class="place__link btn btn--white" href="#">
+                                                    подробнее
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="place__dot">
+                                            <span>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__contact contact">
+                    <div class="container">
+                        <div class="contact__img">
+                            <img src="images/animal-icon.png" alt="img">
+                        </div>
+                        <div class="contact__titling contact-titling">
+                            <h2 class="contact-titling__title">
+                                первое занятие –
+                                <span>
+                                    бесплатно!
+                                </span>
+                            </h2>
+                            <p class="contact-titling__text">
+                                Свяжитесь с нами любым удобным способом:
+                            </p>
+                        </div>
+                        <div class="contact__inner">
+                            <a class="contact__link btn btn--transperent open--write" href="mailto:5Yt3C@example.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zM7 10v2h2v-2H7zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2z"
+                                        fill="#ff0009" />
+                                </svg>
+                                <span>
+                                    написать
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                    <path fill="#fff"
+                                        d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571L21.205 5.007z" />
+                                </svg>
+                            </a>
+                            <a class="contact__link btn btn--transperent open--tel" href="tel:8-800-555-35-35">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+                                    <path fill="#ff0009"
+                                        d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+                                      c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+                                      c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+                                      C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z">
+                                    </path>
+                                </svg>
+                                <span>
+                                    позвонить
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                    <path fill="#fff"
+                                        d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571L21.205 5.007z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="main__popup popup popup--connect">
+                    <div class="popup__wrapper">
+                        <div class="popup__inner">
+                            <div class="popup__close cls">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
+                                    viewBox="0 0 12 12">
+                                    <path fill="#fff"
+                                        d="M5.5 1C2.46 1 0 3.46 0 6.5S2.46 12 5.5 12 11 9.54 11 6.5 8.54 1 5.5 1zm2.44 7.06c.24.24.24.64 0 .88-.12.12-.28.18-.44.18s-.32-.06-.44-.18L5.5 7.38 3.94 8.94c-.12.12-.28.18-.44.18s-.32-.06-.44-.18a.628.628 0 010-.88L4.62 6.5 3.06 4.94c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 5.62l1.56-1.56c.24-.24.64-.24.88 0s.24.64 0 .88L6.38 6.5l1.56 1.56z" />
+                                </svg>
+                            </div>
+                            <div class="popup__connect connect">
+                                <h2 class="connect__title">
+                                    свяжитесь с нами любым удобным способом:
+                                </h2>
+                                <ul class="connect__list connect-list">
+                                    <li class="connect-list__item connect-list__item--tel">
+                                        <a class="connect-list__link connect-list__link--a1" href="tel:80445020205">
+                                            <div class="connect-list__icon">
+                                                <img src="images/icon-a1-logo.svg" alt="icon">
+                                            </div>
+                                            <span>
+                                                8 (044) 502-02-05
+                                            </span>
+                                            <svg width="384" height="384" viewBox="0 0 384 384" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_4192_26839)">
+                                                    <path
+                                                        d="M30.812 252.052C54.322 252.052 77.406 248.375 99.281 241.146C110 237.49 123.177 240.844 129.719 247.563L172.896 280.157C222.969 253.428 253.813 222.594 280.177 172.897L248.542 130.845C240.323 122.637 237.375 110.647 240.907 99.397C248.167 77.407 251.855 54.334 251.855 30.814C251.854 13.823 265.677 0 282.667 0H353.187C370.177 0 384 13.823 384 30.813C384 225.563 225.562 384 30.812 384C13.822 384 -0.00100708 370.177 -0.00100708 353.187V282.864C-7.08003e-06 265.875 13.823 252.052 30.812 252.052Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_4192_26839">
+                                                        <rect width="384" height="384" fill="white"
+                                                            transform="matrix(-1 0 0 1 384 0)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="connect-list__item connect-list__item--tel">
+                                        <a class="connect-list__link connect-list__link--mts" href="tel:80298585299">
+                                            <div class="connect-list__icon">
+                                                <img src="images/mts-logo.png" alt="icon">
+                                            </div>
+                                            <span>
+                                                8 (029) 85-85-299
+                                            </span>
+                                            <svg width="384" height="384" viewBox="0 0 384 384" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_4192_26839)">
+                                                    <path
+                                                        d="M30.812 252.052C54.322 252.052 77.406 248.375 99.281 241.146C110 237.49 123.177 240.844 129.719 247.563L172.896 280.157C222.969 253.428 253.813 222.594 280.177 172.897L248.542 130.845C240.323 122.637 237.375 110.647 240.907 99.397C248.167 77.407 251.855 54.334 251.855 30.814C251.854 13.823 265.677 0 282.667 0H353.187C370.177 0 384 13.823 384 30.813C384 225.563 225.562 384 30.812 384C13.822 384 -0.00100708 370.177 -0.00100708 353.187V282.864C-7.08003e-06 265.875 13.823 252.052 30.812 252.052Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_4192_26839">
+                                                        <rect width="384" height="384" fill="white"
+                                                            transform="matrix(-1 0 0 1 384 0)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="connect-list__item connect-list__item--write">
+                                        <a class="connect-list__link connect-list__link--telegram" href="#">
+                                            <div class="connect-list__icon">
+                                                <img src="images/icon-telegram-logo.svg" alt="icon">
+                                            </div>
+                                            <span>
+                                                написать в telegram
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                                <path fill="#fff"
+                                                    d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571L21.205 5.007z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="connect-list__item connect-list__item--write">
+                                        <a class="connect-list__link connect-list__link--viber" href="#">
+                                            <div class="connect-list__icon">
+                                                <img src="images/icon-viber-logo.svg" alt="icon">
+                                            </div>
+                                            <span>
+                                                написать в viber
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                                <path fill="#fff"
+                                                    d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571L21.205 5.007z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="connect-list__item connect-list__item--write">
+                                        <a class="connect-list__link connect-list__link--instagram" href="#">
+                                            <div class="connect-list__icon">
+                                                <img src="images/instagram.svg" alt="icon">
+                                            </div>
+                                            <span>
+                                                написать в instagram
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.49 31.49">
+                                                <path fill="#fff"
+                                                    d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571L21.205 5.007z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="main__arrow-up arrow-up" href="#header">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.00707 10.2833C4.56307 10.7123 4.56307 11.4263 5.00707 11.8703C5.43607 12.2993 6.15007 12.2993 6.57807 11.8703L14.6251 3.82328L14.6251 30.3773C14.6261 30.9963 15.1181 31.4883 15.7371 31.4883C16.3561 31.4883 16.8641 30.9963 16.8641 30.3773L16.8641 3.82328L24.8961 11.8703C25.3401 12.2993 26.0551 12.2993 26.4831 11.8703C26.9271 11.4263 26.9271 10.7113 26.4831 10.2833L16.5311 0.331282C16.1021 -0.112718 15.3881 -0.112718 14.9601 0.331282L5.00707 10.2833Z"
+                            fill="#fff" />
+                    </svg>
+                </a>
+            </main>
+            <footer class="footer">
+                <div class="footer__bg footer-bg">
+                    <img class="footer-bg__img" src="images/footer-bg.jpg" alt="bg">
+                </div>
+                <div class="big-container">
+                    <div class="footer__inner">
+                        <a class="footer__logo logo" href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <div class="footer__wrapper">
+                            <nav class="footer__nav nav">
+                                <ul class="nav__list nav-list">
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            ОФП «Крепышки»
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            КАРАТЭ-WKF
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            OCR
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            СТРЕЙЧИНГ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="footer__navigation navigation">
+                                <ul class="navigation__list navigation-list">
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Залы
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Цены и скидки
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Команда
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Отзывы
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Новости
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Партнеры
+                                        </a>
+                                    </li>
+                                    <li class="navigation-list__item">
+                                        <a class="navigation-list__link" href="#">
+                                            Вакансии
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <p class="footer__copy">
+                                © 2025, г. Минск© 2025, г. Минск© 2025, г. Минск© 2025, г. Минск© 2025, г. Минск
+                            </p>
+                        </div>
+                        <div class="footer__socials socials">
+                            <ul class="socials__list socials-list">
+                                <li class="socials-list__item">
+                                    <a class="socials-list__link" href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="42.3334mm" height="42.3334mm"
+                                            viewBox="0 0 4233.34 4233.34">
+                                            <path fill="black"
+                                                d="M2116.67 0c1168.99,0 2116.67,947.68 2116.67,2116.67 0,1168.99 -947.68,2116.67 -2116.67,2116.67 -1168.99,0 -2116.67,-947.68 -2116.67,-2116.67 0,-1168.99 947.68,-2116.67 2116.67,-2116.67zm0.45 1464.44c-360.15,0 -651.74,291.88 -651.74,651.72 0,360.16 291.91,651.73 651.74,651.73 360.14,0 651.72,-291.89 651.72,-651.73 0,-360.15 -291.88,-651.72 -651.72,-651.72zm0 1074.74c-233.79,0 -423.02,-189.34 -423.02,-423.02 0,-233.68 189.34,-423.01 423.02,-423.01 233.68,0 423.01,189.33 423.01,423.01 0.11,233.68 -189.23,423.02 -423.01,423.02zm523.25 -1684.56c-233.69,-10.89 -812.5,-10.38 -1046.39,0 -205.52,9.63 -386.82,59.26 -532.97,205.41 -244.27,244.28 -213.05,573.42 -213.05,1056.13 0,494.03 -27.51,815.55 213.05,1056.12 245.21,245.12 579.11,213.04 1056.11,213.04 489.37,0 658.28,0.32 831.31,-66.68 235.27,-91.33 412.87,-301.62 430.22,-679.34 11,-233.78 10.38,-812.49 0,-1046.37 -20.95,-445.88 -260.24,-716.29 -738.28,-738.31l0 0zm369.88 2156.05c-160.14,160.13 -382.27,145.84 -896.2,145.84 -529.17,0 -741.36,7.83 -896.21,-147.42 -178.33,-177.5 -146.04,-462.51 -146.04,-894.62 0,-584.73 -60.01,-1005.85 526.83,-1035.9 134.84,-4.77 174.52,-6.36 513.94,-6.36l4.76 3.17c563.98,0 1006.47,-59.04 1033.03,527.7 6.05,133.88 7.42,174.1 7.42,512.97 -0.12,523.04 9.82,736.51 -147.54,894.62l0.01 0zm-63.3 -1571.95c0,-84.11 -68.17,-152.31 -152.28,-152.31 -84.12,0 -152.31,68.2 -152.31,152.31 0,84.1 68.19,152.29 152.31,152.29 84.11,0 152.28,-68.19 152.28,-152.29z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials-list__item">
+                                    <a class="socials-list__link" href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="211.667mm"
+                                            height="211.667mm" viewBox="0 0 10918.25 10918.25"
+                                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+                                            <g>
+                                                <path class="fil0"
+                                                    d="M5459.12 0c3014.99,0 5459.12,2444.13 5459.12,5459.12 0,3014.99 -2444.13,5459.12 -5459.12,5459.12 -3014.99,0 -5459.12,-2444.13 -5459.12,-5459.12 0,-3014.99 2444.13,-5459.12 5459.12,-5459.12zm3046.63 4837.95c-622.78,0 -1200.13,-199.15 -1671.22,-537.47l0 2441.32c0,1219.35 -991.96,2211.02 -2211.01,2211.02 -471.09,0 -908.11,-148.49 -1267.1,-400.63 -570.08,-400.34 -943.92,-1062.42 -943.92,-1810.39 0,-1219.35 991.96,-2211.31 2211.31,-2211.31 101.32,0 200.31,8.44 297.85,21.55l0 284.46 0 941.88c-94.33,-29.41 -193.91,-46.58 -297.85,-46.58 -556.69,0 -1009.72,453.04 -1009.72,1010.01 0,387.82 220.11,724.68 541.55,893.84 140.05,73.66 299.31,115.88 468.47,115.88 543.87,0 987.59,-432.65 1007.97,-971.87l0.87 -4814.21 1201.3 0c0,104.23 10.19,205.84 28.24,304.84 84.72,457.69 356.37,850.46 732.83,1095.9 262.04,170.91 574.74,270.77 910.14,270.77l0 1201.01 0.29 0z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials-list__item">
+                                    <a class="socials-list__link" href="#">
+                                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM36.265 18.0732C35.9706 16.9422 35.1031 16.0516 34.0016 15.7493C32.0054 15.2 24 15.2 24 15.2C24 15.2 15.9946 15.2 13.9983 15.7493C12.8967 16.0516 12.0292 16.9422 11.7348 18.0732C11.2 20.123 11.2 24.4 11.2 24.4C11.2 24.4 11.2 28.6768 11.7348 30.7268C12.0292 31.8578 12.8967 32.7484 13.9983 33.0508C15.9946 33.6 24 33.6 24 33.6C24 33.6 32.0054 33.6 34.0016 33.0508C35.1031 32.7484 35.9706 31.8578 36.265 30.7268C36.8 28.6768 36.8 24.4 36.8 24.4C36.8 24.4 36.8 20.123 36.265 18.0732Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.6 28.8V20.8L28 24.8001L21.6 28.8Z" fill="black" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
